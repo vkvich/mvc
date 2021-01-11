@@ -1,0 +1,19 @@
+{
+    "name": "user/mvc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "vkvich",
+            "email": "v.kvich.po108@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-mysqli": "*",
+      "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
